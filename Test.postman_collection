@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "aa79d62f-0f36-4195-89ac-240c18170fc5",
+		"name": "RabbitMQ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24824952"
+	},
+	"item": [
+		{
+			"name": "pub",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\":\"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/publish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"publish"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
